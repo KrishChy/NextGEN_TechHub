@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGEN Tech-hub | Community of Innovators</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/NextGENlogo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <!-- <a href="index.html"><img src="img/NextGENlogo.png" alt="NextGENlogo" width="70" height="70"></a> -->
+                <span>NextGEN Tech-hub</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="javascript:void(0)" onclick="joinClub()">Join</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="img/laptopboy.png" alt="laptopboy" class="hero-image" width="350px">
+        <div class="hero-content">
+            <h1><span>NextGEN </span> Tech-hub</h1>
+            <p>Shaping the future, One Line at a time</p>
+            <button class="cta-btn join-us" onclick="joinClub()">Join US</button>
+            <button class="cta-btn" onclick="scrollToSection('about')">Explore More</button>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-box"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>NextGEN Tech-hub is a vibrant community of passionate developers, designers, and tech enthusiasts
+                dedicated to fostering innovation and collaboration. We believe in the power of technology to transform
+                ideas into reality.</p>
+            <div class="stats">
+                <div class="stat-box">
+                    <h3>500+</h3>
+                    <p>Active Members</p>
+                </div>
+                <div class="stat-box">
+                    <h3>50+</h3>
+                    <p>Events Hosted</p>
+                </div>
+                <div class="stat-box">
+                    <h3>100+</h3>
+                    <p>Projects Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- why Nextgen -->
+    <section class="nextgen">
+        <div class="container">
+            <h2> ⭐ Why Choose NextGEN Tech-hub?</h2>
+            <div class="why-list">
+                <div class="reasons card1">
+                    <h3>🚀A Space Built for Young Innovators</h3>
+                    <p>NextGEN is designed for students who want to explore, create, and grow in tech — no experience
+                        required.</p>
+                </div>
+                <div class="reasons card1">
+                    <h3>💡Learn Real IT Skills</h3>
+                    <p>From coding to design to problem-solving, members get hands-on experience that actually matters
+                        in the real world.</p>
+                </div>
+                <div class="reasons card1">
+                    <h3>🤝Connect With Like-Minded Youth</h3>
+                    <p>Meet people who share your passion for technology, creativity, and building cool things.</p>
+                </div>
+                <div class="reasons card1">
+                    <h3>🧠Work on Projects That Make an Impact</h3>
+                    <p>Build apps, websites, tools, and ideas that can help your school, community, or even your future
+                        startup.</p>
+                </div>
+                <div class="reasons card1">
+                    <h3>🎯Guidance + Growth</h3>
+                    <p>We focus on helping members learn step-by-step, grow confidence, and prepare for a future in
+                        tech.</p>
+                </div>
+                <div class="reasons card1">
+                    <h3>🌱A Community That Supports You</h3>
+                    <p>Whether you're a beginner or already skilled, everyone gets support, encouragement, and
+                        opportunities.</p>
+                </div>
+                <div class="reasons card1">
+                    <h3>🔮Pathway to Future Careers</h3>
+                    <p>NextGEN helps you explore career paths in IT, develop your portfolio, and grow your talent early.
+                    </p>
+                </div>
+                <div class="reasons card1">
+                    <h3>🛠️Fun + Creativity + Collaboration</h3>
+                    <p>Hackathons, mini-projects, challenges, meetups — learning is exciting here.</p>
+                </div>
+                <div class="reasons card1">
+                    <h3>📈Build the Next Generation of Leaders</h3>
+                    <p>The Hub isn't just about tech — it's about leadership, teamwork, and creating tomorrow’s
+                        innovators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="features-grid">
+                <div class="feature-card" onmouseover="this.style.transform='translateY(-10px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <div class="feature-icon">💡</div>
+                    <h3>Innovation Hub</h3>
+                    <p>A space to brainstorm and develop cutting-edge technology solutions</p>
+                </div>
+                <div class="feature-card" onmouseover="this.style.transform='translateY(-10px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Collaboration</h3>
+                    <p>Work together with skilled professionals and learn from mentors</p>
+                </div>
+                <div class="feature-card" onmouseover="this.style.transform='translateY(-10px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Learning</h3>
+                    <p>Access workshops, webinars, and training programs</p>
+                </div>
+                <div class="feature-card" onmouseover="this.style.transform='translateY(-10px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Growth</h3>
+                    <p>Accelerate your career with networking and mentorship</p>
+                </div>
+                <div class="feature-card" onmouseover="this.style.transform='translateY(-10px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Global Network</h3>
+                    <p>Connect with tech enthusiasts from around the world</p>
+                </div>
+                <div class="feature-card" onmouseover="this.style.transform='translateY(-10px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Competitions</h3>
+                    <p>Showcase your skills and win amazing prizes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">Dec 15</div>
+                    <img src="img/boy using desktop.jpeg" alt="">
+                    <h3>AI & Machine Learning Workshop</h3>
+                    <p>Learn the fundamentals of AI and ML from industry experts</p>
+                    <a href="register.html"><button class="register-btn" onclick="registerEvent('AI Workshop')">Register Now</button></a>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">Dec 22</div>
+                    <h3>Web Development Bootcamp</h3>
+                    <p>Master modern web technologies and frameworks</p>
+                    <img src="img/boy using desktop.jpeg" alt="">
+                    <a href="register.html"><button class="register-btn" onclick="registerEvent('Web Dev Bootcamp')">Register Now</button></a>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">Jan 5</div>
+                    <img src="img/boy using desktop.jpeg" alt="">
+                    <h3>Hackathon 2025</h3>
+                    <p>Build innovative solutions in 48 hours</p>
+                    <a href="register.html"><button class="register-btn" onclick="registerEvent('Hackathon')">Register Now</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">👨‍💼</div>
+                    <h3>Krish Chaudhary</h3>
+                    <p>Founder</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👩‍💻</div>
+                    <h3>Mahadev Rajbanshi</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👨‍🔬</div>
+                    <h3>Saaras</h3>
+                    <p>Finance</p>
+                </div>
+                <!-- <div class="team-member">
+                    <div class="member-avatar">👩‍🔧</div>
+                    <h3>Sarah Williams</h3>
+                    <p>DevOps Engineer</p>
+                </div> -->
+            </div>
+            <a href="team.html"><button>View More</button></a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61584715592677" class="social-btn" target="_blank">Facebook</a>
+                <a href="#" class="social-btn">Twitter</a>
+                <a href="#" class="social-btn">LinkedIn</a>
+                <a href="#" class="social-btn">GitHub</a>
+            </div>
+            <!-- <img src="img/boy using desktop.jpeg" alt="laptopboy" class="contact-image" width="350px"> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 NextGEN Tech-hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
